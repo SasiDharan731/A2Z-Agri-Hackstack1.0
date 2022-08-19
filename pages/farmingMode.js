@@ -27,7 +27,7 @@ function farmingMode() {
         <h2 className="chooseCtrl">Choose the Control Center for your Robot</h2>
 
         <Link href="robotcontrol"><div className="button-fm">Automatic</div></Link>
-        <Link href="/"><div className="button-fm">Manual</div></Link>
+        <Link href="manualControl"><div className="button-fm">Manual</div></Link>
     </div>
   )
 }

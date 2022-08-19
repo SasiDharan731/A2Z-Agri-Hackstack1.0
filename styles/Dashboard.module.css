@@ -1,0 +1,229 @@
+.topBar {
+  margin: 30px 0 30px 10px;
+}
+.pu {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 360px;
+}
+.headingHi {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.containerCard {
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
+}
+
+.greeting {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #7c7c7c;
+}
+.container {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.tip {
+  background-color: #48b05a;
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 27px;
+  padding-right: 27px;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 360px;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.54rem;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: -5px;
+}
+
+.tipText {
+  width: 240px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 65px;
+  margin-left: 15px;
+}
+
+.select {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.robot {
+  display: grid;
+  grid-template-columns: 15% 90%;
+  gap: 10px;
+}
+
+.add {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.options {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
+  height: 50px;
+}
+
+.bot1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #48b05a;
+}
+
+.btn1 {
+  padding: 0.2px;
+}
+
+.bot2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.carsConatiner {
+  display: flex;
+  width: 90vw;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin: 20px;
+  max-width: 360px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  width: 160px;
+}
+
+.helperText {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.helperHead {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.helperDown {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #a8a8a8;
+}
+
+.cropsGrow {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  max-width: 370px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.cropsText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  width: 270px;
+
+  color: #000000;
+}
+
+.blackNext {
+  margin-top: 20px;
+}
+
+.farmHealth {
+  margin-bottom: 20px;
+}
+
+.farmHead {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 24px;
+  color: #000000;
+}
+
+.mapConatiner {
+  width: 90vw;
+  max-width: 316px;
+  height: 190px;
+  margin: 0 auto;
+  position: relative;
+}

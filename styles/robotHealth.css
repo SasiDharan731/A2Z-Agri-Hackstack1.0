@@ -1,0 +1,113 @@
+.topBar {
+  margin: 30px 0 30px 10px;
+}
+.pu {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 360px;
+  margin-bottom: 30px;
+}
+
+.headingHi {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.greeting {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #7c7c7c;
+}
+
+.robotcontrol_div {
+  width: 76vw;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.c-success-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  font-size: 5vw;
+  text-align: center;
+  color: #48b05a;
+}
+
+.c-success-text2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  font-size: 5.5vw;
+  text-align: center;
+}
+
+.check-cards-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.check-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+  height: 32vw;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.check-card-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.4vw;
+  width: 35vw;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.check-card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5vw;
+  width: 35vw;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 450;
+  color: #48b05a;
+}
+
+.red-card {
+  background-color: #f41d1d;
+}
+
+.red-card p {
+  color: #ffffff;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 12vw;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.7vw;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

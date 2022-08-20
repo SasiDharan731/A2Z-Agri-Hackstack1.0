@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../styles/dashboard.module.css'
+import '../styles/Dashboard.module.css'
 import '../styles/robotHealth.css'
 import '../styles/farmingMode.css'
 import '../styles/manualControl.css'

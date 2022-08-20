@@ -14,7 +14,7 @@ function robotcontrol() {
     const [stat, setStat] = useState(false)
     const sendCmd = () => {
        
-axios.get("http://172.20.10.2:5000/run").then(() => {
+axios.get("http://172.20.10.3:8081/back").then(() => {
             setStat(true)
         }).catch(() => {
             setStat(false)
@@ -22,7 +22,7 @@ axios.get("http://172.20.10.2:5000/run").then(() => {
         
     }
     const sendCmdstp = () => {
-        axios.get("http://172.20.10.2:5000/stop").then(() => {
+        axios.get("http://172.20.10.3:8081/front").then(() => {
             setStat(true)
         }).catch(() => {
             setStat(false)
@@ -46,7 +46,7 @@ axios.get("http://172.20.10.2:5000/run").then(() => {
             <div className={styles.camerafeed}>
             <img
                         className={styles.camFeed}
-                        src="http://172.20.10.2:8080/?action=stream"
+                        src="http://172.20.10.3:8080/?action=stream"
                     />
             </div>
 

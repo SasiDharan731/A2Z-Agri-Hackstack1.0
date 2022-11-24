@@ -39,7 +39,7 @@
   background-color: #48b05a;
   width: 90vw;
   margin: 0 auto;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   padding-bottom: 5px;
   padding-left: 27px;
   padding-right: 27px;
@@ -183,7 +183,7 @@
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   padding: 20px;
-  width: 90vw;
+  width: 85vw;
   margin: 0 auto;
   display: flex;
   max-width: 370px;
@@ -197,7 +197,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  width: 270px;
+  width: 65vw;
 
   color: #000000;
 }

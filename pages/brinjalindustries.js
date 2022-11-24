@@ -34,8 +34,8 @@ function brinjalindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Lucky Agro</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 1 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Brinjal</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 1 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Brinjal</p>
                 </div>
 
                 <div className={styles.buttondiv}>
@@ -51,8 +51,8 @@ function brinjalindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Brinji Products</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 2.2 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Brinjal</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 2.2 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Brinjal</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -66,8 +66,8 @@ function brinjalindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>A2Z Agri farms</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 4.5 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Brinjal</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 4.5 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Brinjal</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image

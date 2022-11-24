@@ -34,8 +34,8 @@ function tomatoindustires() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Morning Star</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 1 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Tomato</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 1 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Tomato</p>
                 </div>
 
                 <div className={styles.buttondiv}>
@@ -51,8 +51,8 @@ function tomatoindustires() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Everest Ketchup</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 3 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Tomato</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 3 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Tomato</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -66,8 +66,8 @@ function tomatoindustires() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>A2Z Agri farms</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 4.5 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Tomato</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 4.5 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Tomato</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -81,8 +81,8 @@ function tomatoindustires() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Del Monte</p>
-                    <p className={styles.indcard_subhead}>Veg Required: 4 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Tomato</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 4 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Tomato</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image

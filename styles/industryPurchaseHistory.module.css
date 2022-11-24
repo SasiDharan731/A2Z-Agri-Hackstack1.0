@@ -1,0 +1,80 @@
+.topBar {
+  margin: 30px 0 50px 10px;
+}
+.pu {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 360px;
+}
+.headingHi {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.greeting {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #7c7c7c;
+}
+
+.historydiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -30px;
+}
+
+.historyCard {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  width: 93vw;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.history {
+  width: 61vw;
+}
+
+.history div {
+  margin-top: 7px;
+}
+
+.hisDate {
+  color: #47821c;
+}
+
+.purDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-left: 12vw; */
+}
+
+.weight {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.redT {
+  color: #e74545;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 3px;
+}

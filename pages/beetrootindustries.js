@@ -1,13 +1,14 @@
 import React from 'react'
-import styles from '../styles/industries.module.css';
 import Image from 'next/image';
-import mango from '../Assets/mango.png'
+import styles from '../styles/industries.module.css';
+import beetroot from '../Assets/beetroot.png'
 import ind_button from '../Assets/indbutton.png'
 
-function industries() {
+function beetrootindustries() {
   return (
     <div>
-        <div className={styles.pu}>
+
+<div className={styles.pu}>
             <div className={styles.topBar}>
                 <div>
                     <span className={styles.headingHi}>Hi, A2Z</span> <br />
@@ -19,12 +20,12 @@ function industries() {
         <div className={styles.industries}>
             <div className={styles.ind_head}>
                 <Image
-                    src={mango}
+                    src={beetroot}
                     alt="Fruit/Vegetable Image"
                     width={50}
                     height={50}
                 />
-                <h1 className={styles.fruitname}>Mango</h1>
+                <h1 className={styles.fruitname}>Beetroot</h1>
             </div>
         </div>
 
@@ -32,9 +33,9 @@ function industries() {
 
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
-                    <p className={styles.indcard_head}>Mazza</p>
-                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 2 Tons</p>
-                    <p className={styles.indcard_subhead}><b>Variety:</b> Malgoa</p>
+                    <p className={styles.indcard_head}>Lucky Agro</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 1 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Beetroot</p>
                 </div>
 
                 <div className={styles.buttondiv}>
@@ -49,9 +50,9 @@ function industries() {
 
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
-                    <p className={styles.indcard_head}>Frooti</p>
-                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 3 Tons</p>
-                    <p className={styles.indcard_subhead}><b>Variety:</b> Malgoa</p>
+                    <p className={styles.indcard_head}>Betro Products</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 2.2 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Beetroot</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -64,9 +65,9 @@ function industries() {
 
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
-                    <p className={styles.indcard_head}>Tropicana</p>
-                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 4.5 Tons</p>
-                    <p className={styles.indcard_subhead}><b>Variety:</b> Malgoa</p>
+                    <p className={styles.indcard_head}>A2Z Agri farms</p>
+                    <p className={styles.indcard_subhead}><b>Veg Required:</b> 4.5 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Beetroot</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -78,8 +79,9 @@ function industries() {
             </div>
 
         </div>
+
     </div>
   )
 }
 
-export default industries
+export default beetrootindustries

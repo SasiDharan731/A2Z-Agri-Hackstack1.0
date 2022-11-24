@@ -14,7 +14,7 @@ function robotcontrol() {
     const [stat, setStat] = useState(false)
     const sendCmd = () => {
        
-axios.get("http://172.20.10.3:8081/back").then(() => {
+axios.get("http://172.20.10.3:8081/front").then(() => {
             setStat(true)
         }).catch(() => {
             setStat(false)
@@ -22,7 +22,7 @@ axios.get("http://172.20.10.3:8081/back").then(() => {
         
     }
     const sendCmdstp = () => {
-        axios.get("http://172.20.10.3:8081/front").then(() => {
+        axios.get("http://172.20.10.3:8081/stop").then(() => {
             setStat(true)
         }).catch(() => {
             setStat(false)

@@ -5,10 +5,10 @@ import mango from '../Assets/mango.png'
 import apple from '../Assets/apple.png'
 import orange from '../Assets/orange.png'
 import guava from '../Assets/guava.png'
-import capsicum from '../Assets/capsicum.png'
+import carrot from '../Assets/carrot.png'
 import brinjal from '../Assets/eggplant.png'
 import tomato from '../Assets/tomato.png'
-import okra from '../Assets/okra.png'
+import beetroot from '../Assets/beetroot.png'
 import sunflowerseed from '../Assets/sunflowerseed.png'
 import appleseed from '../Assets/appleseed.png'
 import tomatoseed from '../Assets/tomatoseed.png'
@@ -34,6 +34,87 @@ function marketplace() {
                 <div className={styles.element}>Vegetables</div>
                 <div className={styles.element}>Seeds</div>
                 <div className={styles.element}>Fertilizers</div>
+            </div>
+
+            <div className={styles.sell}>
+                <div className={styles.head}>Vegetables</div>
+
+                <div className={styles.containerCard}>
+                    <div className={styles.carsConatiner}>
+                        <div
+                            className={styles.card}
+                            onClick={() => router.push('/caps')}
+                        >
+                            <Image
+                                src={carrot}
+                                alt="Picture of the author"
+                                width={50}
+                                height={50}
+                            />
+                            <div className={styles.helperText}>
+                                <span className={styles.helperHead}>
+                                    Carrot
+                                </span>{' '}
+                            </div>
+                        </div>
+
+                        <div
+                            className={styles.card}
+                            onClick={() => router.push('/beetrootindustries')}
+                        >
+                            <Image
+                                src={beetroot}
+                                alt="Picture of the author"
+                                width={50}
+                                height={50}
+                            />
+
+                            <div className={styles.helperText}>
+                                <span className={styles.helperHead}>
+                                    Beetroot
+                                </span>{' '}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.containerCard}>
+                    <div className={styles.carsConatiner}>
+                        <div
+                            className={styles.card}
+                            onClick={() => router.push('/tomatoindustires')}
+                        >
+                            <Image
+                                src={tomato}
+                                alt="Picture of the author"
+                                width={50}
+                                height={50}
+                            />
+
+                            <div className={styles.helperText}>
+                                <span className={styles.helperHead}>
+                                    Tomato
+                                </span>{' '}
+                            </div>
+                        </div>
+
+                        <div 
+                            className={styles.card}
+                            onClick={() => router.push('/brinjalindustries')}
+                        >
+                            <Image
+                                src={brinjal}
+                                alt="Picture of the author"
+                                width={50}
+                                height={50}
+                            />
+
+                            <div className={styles.helperText}>
+                                <span className={styles.helperHead}>Brinjal</span>{' '}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className={styles.sell}>
@@ -111,84 +192,6 @@ function marketplace() {
             </div>
 
             <div className={styles.sell}>
-                <div className={styles.head}>Vegetables</div>
-
-                <div className={styles.containerCard}>
-                    <div className={styles.carsConatiner}>
-                        <div
-                            className={styles.card}
-                            onClick={() => router.push('/caps')}
-                        >
-                            <Image
-                                src={capsicum}
-                                alt="Picture of the author"
-                                width={50}
-                                height={50}
-                            />
-                            <div className={styles.helperText}>
-                                <span className={styles.helperHead}>
-                                    Capsicum
-                                </span>{' '}
-                            </div>
-                        </div>
-
-                        <div
-                            className={styles.card}
-                            onClick={() => router.push('/brinjalindustries')}
-                        >
-                            <Image
-                                src={brinjal}
-                                alt="Picture of the author"
-                                width={50}
-                                height={50}
-                            />
-
-                            <div className={styles.helperText}>
-                                <span className={styles.helperHead}>
-                                    Brinjal
-                                </span>{' '}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={styles.containerCard}>
-                    <div className={styles.carsConatiner}>
-                        <div
-                            className={styles.card}
-                            onClick={() => router.push('/tomatoindustires')}
-                        >
-                            <Image
-                                src={tomato}
-                                alt="Picture of the author"
-                                width={50}
-                                height={50}
-                            />
-
-                            <div className={styles.helperText}>
-                                <span className={styles.helperHead}>
-                                    Tomato
-                                </span>{' '}
-                            </div>
-                        </div>
-
-                        <div className={styles.card}>
-                            <Image
-                                src={okra}
-                                alt="Picture of the author"
-                                width={50}
-                                height={50}
-                            />
-
-                            <div className={styles.helperText}>
-                                <span className={styles.helperHead}>Okra</span>{' '}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.sell}>
                 <div className={styles.head}>Seeds</div>
 
                 <div className={styles.containerCard}>
@@ -258,6 +261,8 @@ function marketplace() {
                     </div>
                 </div>
             </div>
+
+            <p className={styles.checkHis} onClick={() => router.push('/industryPurchaseHistory')}>Check Deals History</p>
 
     </div>
   )

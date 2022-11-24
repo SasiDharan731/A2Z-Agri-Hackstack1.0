@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 85vw;
+  width: 90vw;
   height: 30vw;
 
   background-color: #ffffff;
@@ -72,7 +72,7 @@
 .indcard_subhead {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   margin-top: -10px;
 
@@ -80,9 +80,13 @@
 }
 
 .ind_cardtext {
+  /* background-color: tomato; */
+  width: 55vw;
   text-align: left;
 }
 
 .buttondiv {
   margin-left: 40px;
+  width: 10vw;
+  /* background-color: tomato; */
 }

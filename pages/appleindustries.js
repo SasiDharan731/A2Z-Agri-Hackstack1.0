@@ -34,8 +34,8 @@ function appleindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Appy Fizz</p>
-                    <p className={styles.indcard_subhead}>Fruits Required: 5 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Shimla</p>
+                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 5 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Shimla</p>
                 </div>
 
                 <div className={styles.buttondiv}>
@@ -51,8 +51,8 @@ function appleindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Minute Maid</p>
-                    <p className={styles.indcard_subhead}>Fruits Required: 3 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Shimla</p>
+                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 3 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Shimla</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image
@@ -66,8 +66,8 @@ function appleindustries() {
             <div className={styles.ind_card}>
                 <div className={styles.ind_cardtext}>
                     <p className={styles.indcard_head}>Tropicana</p>
-                    <p className={styles.indcard_subhead}>Fruits Required: 4.5 Tons</p>
-                    <p className={styles.indcard_subhead}>Variety: Shimla</p>
+                    <p className={styles.indcard_subhead}><b>Fruits Required:</b> 4.5 Tons</p>
+                    <p className={styles.indcard_subhead}><b>Variety:</b> Shimla</p>
                 </div>
 
                 <div className={styles.buttondiv}><Image

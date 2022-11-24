@@ -11,11 +11,13 @@ int val;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  
 
   myservo1.attach(9);  // attaches the servo on pin 9 to the servo object 
   myservo2.attach(10);
   myservo3.attach(6);
   neutral();
+  delay(15000);
 }
 
 
@@ -43,10 +45,10 @@ void arm_left(){
 
 void loop() {
 //   put your main code here, to run repeatedly:
-  int sensi = 600;
-  
+  int sensi = 45;
+
   val = analogRead(A0);
-  
+//  Serial.println(val);
   if(val >= sensi){
     Serial.println("Front");
     //plant();
@@ -60,18 +62,21 @@ front();
     }else{
       val = analogRead(A2);
       if(val >= sensi){
-        Serial.println("Plant");
-        plant();
+        Serial.println("Left");
+//        plant();
+left();
       }else{
         val = analogRead(A3);
         if(val >= sensi){
           Serial.println("Right");
-          Stop();
+//          Stop();
+right();
         }else{
-           val = analogRead(A4);
+           val = analogRead(A5);
            if(val >= sensi){
-            Serial.println("Left");
-            left();
+            Serial.println("Plant");
+//            left();
+plant();
            }else{
              Serial.println("Stop");
              Stop();
@@ -142,7 +147,8 @@ void left(){
 
 void Stop(){
 
-  neutral();
+ myservo1.write(140, SPEED, true); 
+ myservo2.write(0, SPEED, true);
   mot1.setSpeed(0);
    mot2.setSpeed(0);
     mot3.setSpeed(0);
